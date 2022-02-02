@@ -18,7 +18,7 @@ h1 {
 }
 
 h3 {
-  color: white;
+  color: black;
 }
 
 p {
@@ -27,6 +27,14 @@ p {
 
 div {
   background: #00fca6;
-  padding: 30px 30px 35px 50px;
-  
+  padding: 35px 30px 30px 50px;
+  margin-bottom: 20px;
+}
+
+div p {
+  color: black;
+}
+
+.drone {
+  background: white;
 }
