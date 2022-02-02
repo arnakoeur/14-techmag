@@ -1,10 +1,15 @@
 body {
   background-color: black;
-  padding: 10px;
+  padding: 20px;
 }
 
 header {
   border: solid 2px white;
+  padding-bottom: 55px;
+  padding-left: 30px;
+  padding-top: 55px;
+  padding-right: 30px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -12,6 +17,16 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  color: white;
+}
+
 p {
   color: white;
+}
+
+div {
+  background: #00fca6;
+  padding: 30px 30px 35px 50px;
+  
 }
