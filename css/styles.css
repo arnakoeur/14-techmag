@@ -10,6 +10,7 @@ header {
   padding-top: 55px;
   padding-right: 30px;
   margin-bottom: 20px;
+  background-image: url(../img/background-image.jpg);
 }
 
 h1 {
@@ -17,7 +18,11 @@ h1 {
   text-align: center;
 }
 
-h3 {
+div h1 {
+  color: black;
+}
+
+article h1 {
   color: black;
 }
 
@@ -27,7 +32,7 @@ p {
 
 div {
   background: #00fca6;
-  padding: 35px 30px 30px 50px;
+  padding: 35px 45px 30px 50px;
   margin-bottom: 20px;
 }
 
@@ -37,4 +42,19 @@ div p {
 
 .drone {
   background: white;
+  padding: 35px 45px 30px 50px;
+  margin-bottom: 20px;
+}
+
+.avant {
+  background: white;
+  padding: 35px 45px 30px 50px;
+}
+
+.drone p {
+  color: black;
+}
+
+.avant p {
+  color: black;
 }
