@@ -1,17 +1,19 @@
 body {
   background-color: black;
   padding: 20px;
+  margin: 0;
 }
 
 header {
   border: solid 2px white;
-  padding-bottom: 55px;
-  padding-left: 30px;
-  padding-top: 55px;
-  padding-right: 30px;
+  padding: 55px 30px;
   margin-bottom: 20px;
   background-image: url(../img/background-image.jpg);
   box-shadow: inset black;
+}
+
+header h1{
+  font-size: 25px;
 }
 
 h1 {
@@ -28,8 +30,12 @@ article h1 {
   color: black;
 }
 
-p {
+header p {
   color: white;
+  font-family: Opensans;
+}
+
+main {
   font-family: Opensans;
 }
 
@@ -43,21 +49,19 @@ div p {
   color: black;
 }
 
-.drone {
+article {
   background: white;
-  padding: 35px 45px 30px 50px;
+  padding: 30px 30px 28px;
   margin-bottom: 20px;
+  color: #000;
 }
 
-.avant {
-  background: white;
-  padding: 35px 45px 30px 50px;
+img {
+  padding: 0;
+  margin: 0;
 }
 
-.drone p {
-  color: black;
-}
-
-.avant p {
-  color: black;
+figure {
+  padding: 0;
+  margin: 0;
 }
